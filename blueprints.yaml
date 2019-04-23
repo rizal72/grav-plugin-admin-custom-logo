@@ -1,0 +1,32 @@
+name: Admin Custom Logo
+version: 0.1.0
+description: Admin Plugin extension that customizes the Login Logo. That's all
+icon: plug
+author:
+  name: Riccardo Sallusti
+  email: riccardo.sallusti@gmail.com
+homepage: https://github.com/rizal72/grav-plugin-admincustomlogo
+demo: https://riccardosallusti.it
+keywords: grav, plugin, admin, custom, logo
+bugs: 
+docs: 
+license: MIT
+dependencies:
+  - admin
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    custom_logo_url:
+      type: text
+      label: Logo image url
+      help: Insert here the url of your logo image (i.e. '/images/logo.png').
