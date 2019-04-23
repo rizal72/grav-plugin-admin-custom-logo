@@ -32,7 +32,7 @@ If you use the admin plugin, you can install directly through the admin plugin b
 
 ## Configuration
 
-Before configuring this plugin, you should copy the `user/plugins/admin-riz/admin-riz.yaml` to `user/config/plugins/admincustomlogo.yaml` and only edit that copy.
+Before configuring this plugin, you should copy the `user/plugins/admincustonlogo/admincustonlogo.yaml` to `user/config/plugins/admincustomlogo.yaml` and only edit that copy.
 
 Here is the default configuration and an explanation of available options:
 
@@ -40,7 +40,7 @@ Here is the default configuration and an explanation of available options:
 enabled: true
 ```
 
-Note that if you use the admin plugin, a file with your configuration, and named admin-riz.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.
+Note that if you use the admin plugin, a file with your configuration, and named admincustonlogo.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.
 
 ## Usage
 
