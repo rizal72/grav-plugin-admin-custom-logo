@@ -1,4 +1,4 @@
-# Admin Riz Plugin
+# Admin Custo Logo Plugin
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
@@ -12,9 +12,9 @@ Installing the Admin Riz plugin can be done in one of two ways. The GPM (Grav Pa
 
 The simplest way to install this plugin is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's terminal (also called the command line).  From the root of your Grav install type:
 
-    bin/gpm install admin-riz
+    bin/gpm install admincustomlogo
 
-This will install the Admin Riz plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/admin-riz`.
+This will install the Admin Riz plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/admincustomlogo`.
 
 ### Manual Installation
 
@@ -22,7 +22,7 @@ To install this plugin, just download the zip version of this repository and unz
 
 You should now have all the plugin files under
 
-    /your/site/grav/user/plugins/admin-riz
+    /your/site/grav/user/plugins/admincustomlogo
 	
 > NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav) and the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) to operate.
 
@@ -32,7 +32,7 @@ If you use the admin plugin, you can install directly through the admin plugin b
 
 ## Configuration
 
-Before configuring this plugin, you should copy the `user/plugins/admin-riz/admin-riz.yaml` to `user/config/plugins/admin-riz.yaml` and only edit that copy.
+Before configuring this plugin, you should copy the `user/plugins/admin-riz/admin-riz.yaml` to `user/config/plugins/admincustomlogo.yaml` and only edit that copy.
 
 Here is the default configuration and an explanation of available options:
 
