@@ -2,11 +2,11 @@
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
-The **Admin Riz** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Admin extension
+The **Admin Custom Logo** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Admin extension
 
 ## Installation
 
-Installing the Admin Riz plugin can be done in one of two ways. The GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file.
+Installing the Admin Custom Logo plugin can be done in one of two ways. The GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file.
 
 ### GPM Installation (Preferred)
 
@@ -14,11 +14,11 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install admincustomlogo
 
-This will install the Admin Riz plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/admincustomlogo`.
+This will install the Admin Custom Logo plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/admincustomlogo`.
 
 ### Manual Installation
 
-To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `admin-riz`. You can find these files on [GitHub](https://github.com//grav-plugin-admin-riz) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `admincustomlogo`. You can find these files on [GitHub](https://github.com//grav-plugin-admincustomlogo) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
 
 You should now have all the plugin files under
 
